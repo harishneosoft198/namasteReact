@@ -6,6 +6,13 @@
     <title>React Episode 1</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div id="root"></div>
+    <script>
+        //creating elements using the pure javascript
+        var heading = document.createElement('h1');
+        heading.innerHTML = 'Hello World'
+        var root = document.getElementById('id');
+        root.appendChild(heading)
+    </script>
 </body>
 </html>
